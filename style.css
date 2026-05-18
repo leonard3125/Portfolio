@@ -323,10 +323,10 @@ section {
     inset: 0;
     border-radius: 20px;
     padding: 3px;
-    background: var(--gradient);
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    background: transparent;
+    pointer-events: none;
 }
 
 .img-wrapper img {
