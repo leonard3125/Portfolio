@@ -307,7 +307,7 @@ section {
 .img-wrapper {
     width: 350px;
     height: 450px;
-    background: var(--card-bg);
+    background: var(--card-bg) url('cert/profile.jpg') center/cover no-repeat;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
